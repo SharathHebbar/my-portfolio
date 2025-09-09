@@ -189,7 +189,7 @@ function Nav() {
     { href: "#skills", label: "Skills" },
     { href: "#projects", label: "Projects" },
     { href: "#experience", label: "Experience" },
-    { href: "#pubs", label: "Real Time Projects" },
+    { href: "#rwprojects", label: "Real World Projects" },
     { href: "#contact", label: "Contact" },
   ];
   return (
@@ -394,7 +394,7 @@ function Experience() {
 
 function RealTimeProjects() {
   return (
-    <MotionSection id="pubs" title="Real Time Projects" icon={BookOpen}>
+    <MotionSection id="rwprojects" title="Real World Projects" icon={BookOpen}>
       <div className="space-y-4">
         {real_time_projects.map((p) => (
           <div key={p.title} className="flex flex-wrap items-center gap-2 justify-between rounded-2xl border border-neutral-800 p-4 bg-neutral-950/40">

@@ -57,11 +57,34 @@ const real_time_projects = [
       `Automated dataset tagging during custom processor training in GCP’s Document AI, cutting annotation time by 50%.`
     ],
   },
+  {
+    title: "AI for Prostate Cancer",
+    skills: ["Python", "Descriptive Statistics", "Inferential Statistics", "Vertex AI", "XGBoost", "Random Forest", "GCP"],
+    year: "Aug 2022 - Sep 2023",
+    bullets: [
+      `Built using Python, Traditional Machine Learning Algorithms to validate the research hypothesis around prostate cancer prediction.`,
+      `Performed statistical hypothesis testing (p-value analysis, Z-test, and T-test) to establish the significance of observed differences across patient groups and validate the reliability of predictive features.`,
+      `Applied feature importance techniques (e.g., from tree-based models and SHAP analysis) to identify critical clinical and demographic variables impacting disease progression and risk assessment.`,
+      `Developed two XGBoost classifier models, tailored separately for two racial cohorts, achieving F1-scores of 0.71 and 0.74, and compared performance to evaluate race-specific risk factors.`,
+      `Demonstrated the potential clinical applicability of the hypothesis, where models can serve as a decision-support tool in medical institutes for early screening and pre-judgment of prostate cancer risk.`
+    ],
+  },
+    {
+    title: "Sentiment Analysis",
+    skills: ["Python", "HuggingFace", "Transformers", "Natural Language Processing", "BERT", "RoBERTa", "XLNet", "DistilBERT"],
+    year: "Aug 2022 - Sep 2023",
+    bullets: [
+      `Developed a proof-of-concept Sentiment Analysis system leveraging state-of-the-art Transformer architectures such as BERT, RoBERTa, DistilBERT, and XLNet.`,
+      `Preprocessed and fine-tuned models on sentiment datasets, applying techniques like tokenization, attention masking, and transfer learning for robust performance.`,
+      `Benchmarked multiple Transformer models, comparing accuracy, inference speed, and memory efficiency to identify trade-offs across use cases.`,
+      `Achieved 80% accuracy in classification tasks, validating the effectiveness of modern NLP models for sentiment analysis in real-world applications.`,
+    ],
+  },
 ];
 
 export default function RealTimeProjects() {
   return (
-    <MotionSection id="pubs" title="Real Time Projects" icon={GlobeLock}>
+    <MotionSection id="rwprojects" title="Real World Projects" icon={GlobeLock}>
       <div className="space-y-4">
         {real_time_projects.map((p) => (
           <div key={p.title} className="flex flex-wrap items-center gap-2 justify-between rounded-2xl border border-neutral-800 p-4 bg-neutral-950/40">

@@ -1,18 +1,17 @@
 import { useMemo } from "react";
 import { motion } from "framer-motion";
-import { Cpu, Database } from "lucide-react";
+import { Cpu, Database} from "lucide-react";
 
 import { Badge, MotionSection } from "./Assets";
 
 const skills = {
   "AI Engineering": ["Prompt Engineering", "RAG", "Agents", "Evaluation", "Guardrails", "Fine Tuning Language Models"],
-  "AI Frameworks": ["LangChain", "LangGraph", "CrewAI"],
   "ML Engineering": ["Supervised ML", "Unsupervised ML", "Neural Networks", "NLP", "Deep Learning", "Transfer Learning", "Fine Tuning"],
-  "ML Frameworks": ["PyTorch", "TensorFlow", "Scikit-learn", "XGBoost", "SpaCy", "NLTK", "HuggingFace", "Keras"],
+  "AI / ML Frameworks": ["LangChain", "LangGraph", "CrewAI", "PyTorch", "TensorFlow", "Scikit-learn", "XGBoost", "SpaCy", "NLTK", "HuggingFace"],
   "Languages and Databases": ["Python", "C", "C++", "SQL", "NoSQL"],
   "Libraries and Frameworks": ["FastAPI", "Postgres", "MySQL", "MongoDB", "Firestore/Firebase", "Flask", "Streamlit", "DuckDB", "PySpark", "Spark"],
-  "Platform and DevOps": ["Git", "GitHub", "GitLab", "Docker", "MLflow", "Vertex AI", "Document AI", "Databricks", "GCR", "ACR", "Cloud Run"],
-  "Cloud": ["Azure", "GCP", "AWS"],
+  "Platform and DevOps": ["GCP", "Azure", "Git", "GitHub", "GitLab", "Docker", "MLflow", "Vertex AI", "Document AI", "Databricks", "GCR", "ACR"],
+  // "Cloud": ["Azure", "GCP", "AWS"],
 };
 
 export default function Skills() {

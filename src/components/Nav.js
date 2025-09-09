@@ -6,9 +6,11 @@ export default function Nav() {
   const items = [
     { href: "#about", label: "About" },
     { href: "#skills", label: "Skills" },
-    { href: "#projects", label: "Projects" },
+    { href: "#rwprojects", label: "Real World Projects" },
     { href: "#experience", label: "Experience" },
-    { href: "#pubs", label: "Real Time Projects" },
+    { href: "#projects", label: "Projects" },
+    { href: "#education", label: "Education" },
+    { href: "#certifications", label: "Certifications" },
     { href: "#contact", label: "Contact" },
   ];
   return (

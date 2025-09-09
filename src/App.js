@@ -12,18 +12,20 @@ import Projects from "./components/Projects";
 import Experience from "./components/Experience"
 import RealTimeProjects from "./components/RealTimeProjects";
 import Education from "./components/Education"
+import Certifications from "./components/Certification";
 
 export default function Portfolio() {
   return (
     <div className="min-h-screen bg-neutral-950 text-white">
       <Nav />
       <Hero />
-      {/* <About /> */}
+      <About />
       <Skills />
+      <RealTimeProjects />
+      <Experience />
       <Projects />
       <Education />
-      <Experience />
-      <RealTimeProjects />
+      <Certifications />
       <Contact />
       <footer className="border-t border-neutral-900 py-10 mt-16 text-center text-neutral-400">
         © {new Date().getFullYear()} {ME.name}. Built with React, Tailwind & Framer Motion.

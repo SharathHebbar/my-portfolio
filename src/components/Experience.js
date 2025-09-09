@@ -1,6 +1,5 @@
 import { motion } from "framer-motion";
-import { Award } from "lucide-react";
-
+import { BriefcaseBusiness } from "lucide-react";
 import { MotionSection } from "./Assets";
 
 const experience = [
@@ -9,9 +8,7 @@ const experience = [
     org: "Tiger Analytics",
     period: "Aug 2025 — Present",
     bullets: [
-      "Led design of agentic AI platform (router, SQL/DAX agent, summarizer, memory, eval).",
-      "Reduced hallucinations by 38% via retrieval scoring, plan-and-execute, and selective tool-use.",
-      "Cut infra cost 27% with request caching, batch embedding, and adaptive context windows.",
+      "Working on building scalable agents.",
     ],
   },
   {
@@ -52,7 +49,7 @@ const experience = [
 
 export default function Experience() {
   return (
-    <MotionSection id="experience" title="Experience" icon={Award}>
+    <MotionSection id="experience" title="Experience" icon={BriefcaseBusiness}>
       <div className="space-y-6">
         {experience.map((e) => (
           <motion.div

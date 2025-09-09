@@ -22,7 +22,7 @@ export default function Hero() {
           <p className="mt-4 text-neutral-300">
             {ME.tagline}
           </p>
-
+          
           <div className="mt-6 flex flex-wrap items-center gap-3">
             <a
               href={ME.resume}
@@ -39,7 +39,7 @@ export default function Hero() {
             </a>
           </div>
         </motion.div>
-        <About />
+        
         <motion.div
           initial={{ opacity: 0 }}
           animate={{ opacity: 1 }}
