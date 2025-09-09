@@ -1,6 +1,5 @@
 import { motion } from "framer-motion";
-import { BookOpen, ExternalLink } from "lucide-react";
-
+import { GlobeLock } from "lucide-react";
 import { MotionSection, Badge } from "./Assets";
 
 const real_time_projects = [
@@ -60,9 +59,9 @@ const real_time_projects = [
   },
 ];
 
-export function RealTimeProjects() {
+export default function RealTimeProjects() {
   return (
-    <MotionSection id="pubs" title="Real Time Projects" icon={BookOpen}>
+    <MotionSection id="pubs" title="Real Time Projects" icon={GlobeLock}>
       <div className="space-y-4">
         {real_time_projects.map((p) => (
           <div key={p.title} className="flex flex-wrap items-center gap-2 justify-between rounded-2xl border border-neutral-800 p-4 bg-neutral-950/40">

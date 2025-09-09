@@ -3,11 +3,12 @@ import { motion} from "framer-motion";
 export const ME = {
   name: "Sharath S Hebbar",
   title: "Lead AI Engineer",
-  tagline: "I design and ship reliable, production-grade AI systems — from RAG and agents to MLOps at scale.",
+  tagline: "Machine Learning Engineer | AI Engineer | Building Scalable AI Solutions | Generative AI | Natural Language Processing | Optimization | Big Data",
   location: "Bengaluru, IN",
   email: "sharathshebbar@gmail.com",
   github: "https://github.com/SharathHebbar",
   linkedin: "https://www.linkedin.com/in/sharath-s-hebbar/",
+  medium: "https://medium.com/@sharathhebbar24",
   resume: "/resume.pdf", // put in /public
 };
 

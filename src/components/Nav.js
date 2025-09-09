@@ -1,4 +1,4 @@
-import { Github, Linkedin, Mail} from "lucide-react";
+import { Github, Linkedin, Mail, Rss} from "lucide-react";
 
 import {ME} from "./Assets"
 
@@ -30,6 +30,9 @@ export default function Nav() {
           </a>
           <a href={ME.linkedin} target="_blank" rel="noreferrer noopener" className="p-2 rounded-xl hover:bg-neutral-900">
             <Linkedin className="w-5 h-5" />
+          </a>
+          <a href={ME.medium} target="_blank" rel="noreferrer noopener" className="p-2 rounded-xl hover:bg-neutral-900">
+            <Rss className="w-5 h-5" />
           </a>
           <a href={`mailto:${ME.email}`} className="p-2 rounded-xl hover:bg-neutral-900">
             <Mail className="w-5 h-5" />

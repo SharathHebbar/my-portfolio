@@ -7,12 +7,20 @@ export default function About() {
     <MotionSection id="about" title="About" icon={Brain}>
       <div className="prose prose-invert max-w-none text-neutral-300">
         <p>
-          I specialize in building robust AI systems that move beyond demos: retrieval pipelines with strong
-          evaluation, agentic workflows with tool-use, and observability to keep models reliable in production.
+          AI / ML Engineer with 3+ years of full-time experience working in Retail, Phrama, Medical and Product
+          development domains.
         </p>
         <p>
-          Recently, I’ve focused on secure RAG, SQL/DAX agents for analytics, and cost-aware deployment strategies
-          with batching, caching, and smart context management.
+          With expertise in the end-to-end process of building, designing, deploying, and delivering Machine Learning
+          products and solutions.
+        </p>
+        <p>
+          Proficiency in utilizing, building, pre-training, and fime-tuning Machine Learning models to address a wide
+          range of business challenges effectively.
+        </p>
+        <p>
+          Additionally, equipped strong skills in data pre-processing, feature engineering, feature selection, model
+          development, deployment, interpretability, and monitoring.
         </p>
       </div>
     </MotionSection>

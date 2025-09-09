@@ -1,6 +1,7 @@
 import { motion} from "framer-motion";
 import { FileDown, ArrowRight} from "lucide-react";
 
+import About from "./About";
 import {ME} from "./Assets"
 
 export default function Hero() {
@@ -38,17 +39,18 @@ export default function Hero() {
             </a>
           </div>
         </motion.div>
-
+        <About />
         <motion.div
           initial={{ opacity: 0 }}
           animate={{ opacity: 1 }}
           transition={{ delay: 0.2, duration: 0.8 }}
           className="mt-12 grid grid-cols-2 sm:grid-cols-4 gap-4"
         >
+          
           {[
             { label: "Years exp", value: "3+" },
-            { label: "Models shipped", value: "25+" },
-            { label: "Papers/Talks", value: "8" },
+            { label: "Certifications", value: "3+" },
+            { label: "Blogs", value: "54" },
             { label: "Repos", value: "100+" },
           ].map((s) => (
             <div key={s.label} className="rounded-2xl border border-neutral-800 p-4 bg-neutral-950/40">
