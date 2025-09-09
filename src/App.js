@@ -1,8 +1,5 @@
-import { useMemo } from "react";
-import { motion} from "framer-motion";
-import { Github, Linkedin, Mail, ExternalLink, FileDown, ArrowRight, Cpu, Database, Brain, BarChart, BookOpen, Award } from "lucide-react";
 
-import { ME, Badge,MotionSection } from "./components/Assets"
+import { ME } from "./components/Assets"
 import Nav from "./components/Nav"
 import Contact from "./components/Contact"
 import Hero from "./components/Hero"
