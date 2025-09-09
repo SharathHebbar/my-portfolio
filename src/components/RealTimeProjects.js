@@ -4,7 +4,20 @@ import { MotionSection, Badge } from "./Assets";
 
 const real_time_projects = [
   {
-    title: "Automated Custom Segments for Enhanced Targeting: MicroSegmentation",
+    title: "Conversation Intelligence Pipeline",
+    skills: ["Python", "Gen AI", "Prompt Engineering", "LLM", "Speech to Text", "Azure Cloud", "Summarization"],
+    year: "May 2025 - Aug 2025",
+    bullets: [
+      `Built an end-to-end Conversational Intelligence Pipeline to process Medical Representative (Med Rep) to Healthcare Professional (HCP) audio interactions for actionable insights.`,
+      `Implemented modules for transcription, translation, medical terminology correction, speaker diarization, and summarization, ensuring accuracy in domain-specific conversations.`,
+      `Leveraged LLMs for correction of biomedical terms, role-based speaker assignment, and generation of structured summaries capturing Agreed Actions, Areas of Interest, and Objections.`,
+      `Applied evaluation metrics such as Word Error Rate (WER), BLEU score, and precision/recall to measure pipeline performance across stages.`,
+      `Ensured pipeline scalability, low-latency processing, and compliance with healthcare data privacy regulations (HIPAA/GDPR).`,
+      `Enabled pharma organizations to derive business value by tracking HCP concerns, improving Med Rep engagement, and strengthening decision-making through structured insights.`
+    ],
+  },
+  {
+    title: "Automated Custom Segments for Enhanced Targeting -  MicroSegmentation",
     skills: ["SQL", "PySpark", "Python", "Clustering", "GenAI", "Big Data", "LLM"],
     year: "Apr 2024 - Aug 2025",
     bullets: [
@@ -34,7 +47,7 @@ const real_time_projects = [
     ],
   },
    {
-    title: "Customer Churn",
+    title: "Customer Churn Prediction",
     skills: ["Python", "Traditional ML Algorithms", "GCP", "Vertex AI", "Data Analytics and Engineering"],
     year: "Oct 2023 - Jan 2024",
     bullets: [
@@ -60,7 +73,7 @@ const real_time_projects = [
   {
     title: "AI for Prostate Cancer",
     skills: ["Python", "Descriptive Statistics", "Inferential Statistics", "Vertex AI", "XGBoost", "Random Forest", "GCP"],
-    year: "Aug 2022 - Sep 2023",
+    year: "May 2022 - Aug 2022",
     bullets: [
       `Built using Python, Traditional Machine Learning Algorithms to validate the research hypothesis around prostate cancer prediction.`,
       `Performed statistical hypothesis testing (p-value analysis, Z-test, and T-test) to establish the significance of observed differences across patient groups and validate the reliability of predictive features.`,
@@ -72,7 +85,7 @@ const real_time_projects = [
     {
     title: "Sentiment Analysis",
     skills: ["Python", "HuggingFace", "Transformers", "Natural Language Processing", "BERT", "RoBERTa", "XLNet", "DistilBERT"],
-    year: "Aug 2022 - Sep 2023",
+    year: "Apr 2022 - May 2022",
     bullets: [
       `Developed a proof-of-concept Sentiment Analysis system leveraging state-of-the-art Transformer architectures such as BERT, RoBERTa, DistilBERT, and XLNet.`,
       `Preprocessed and fine-tuned models on sentiment datasets, applying techniques like tokenization, attention masking, and transfer learning for robust performance.`,

@@ -31,7 +31,7 @@ export default function Hero() {
               <FileDown className="w-5 h-5" /> Download CV
             </a>
             <a
-              href="#projects"
+              href="#rwprojects"
               className="inline-flex items-center gap-2 border-2 border-lime-400 text-lime-400 font-bold px-5 py-3 rounded-xl group"
             >
               View Projects

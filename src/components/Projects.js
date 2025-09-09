@@ -1,6 +1,5 @@
 import { motion } from "framer-motion";
-import { Github, ExternalLink, BarChart} from "lucide-react";
-
+import { Github , Folder} from "lucide-react";
 import { MotionSection, Badge } from "./Assets";
 
 const projects = [
@@ -21,14 +20,14 @@ const projects = [
   {
     title: "Analytics",
     desc: "Marketing Analytics, Clinical Analytics",
-    tags: ["Machine Learning", "Clinical Analytics", "Marketing Analytics", "Customer Segmentation"],
+    tags: ["Machine Learning", "Data Science", "Clinical Analytics", "Marketing Analytics", "Customer Segmentation"],
     demo: "#",
     code: "https://github.com/SharathHebbar/Analytics",
   },
   {
     title: "LLM Engineering",
     desc: "LLM Engineering",
-    tags: ["Chatbot", "Agents", "LangGraph", "LangChain", "GenAI", "RAG", "LLM"],
+    tags: ["Chatbot", "Agents", "LangGraph", "LangChain", "Generative AI", "RAG", "LLM", "Agentic AI"],
     demo: "#",
     code: "https://github.com/SharathHebbar/LLM-Engineering",
   },
@@ -37,7 +36,7 @@ const projects = [
 
 export default function Projects() {
   return (
-    <MotionSection id="projects" title="Projects" icon={BarChart}>
+    <MotionSection id="projects" title="Projects" icon={Folder}>
       <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-6">
         {projects.map((p) => (
           <motion.div
