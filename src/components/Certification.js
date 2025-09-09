@@ -53,8 +53,16 @@ export default function Certifications() {
               </a>
             </div> */}
             
-            <img src={p.photo} alt="Photo" />
-            
+            {/* <a href={p.link}><img src={p.photo} alt="Photo" /></a> */}
+            <a href={p.link} target="_blank" rel="noopener noreferrer">
+            <img
+                src={p.photo}
+                alt="Photo"
+                title="Click to navigate"
+                className="rounded-lg hover:opacity-90 transition"
+            />
+            </a>
+                        
           </motion.div>
         ))}
       </div>

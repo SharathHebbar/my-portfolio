@@ -56,9 +56,6 @@ export default function Projects() {
               ))}
             </div>
             <div className="mt-4 flex items-center gap-3">
-              <a href={p.demo} className="inline-flex items-center gap-2 text-sm text-lime-400 hover:underline">
-                <ExternalLink className="w-4 h-4" /> Demo
-              </a>
               <a href={p.code} className="inline-flex items-center gap-2 text-sm text-neutral-300 hover:underline">
                 <Github className="w-4 h-4" /> Code
               </a>
