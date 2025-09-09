@@ -4,7 +4,7 @@ export const ME = {
   name: "Sharath S Hebbar",
   title: "Lead AI Engineer",
   tagline: "Machine Learning Engineer | AI Engineer | Building Scalable AI Solutions | Generative AI | Natural Language Processing | Optimization | Big Data",
-  location: "Bengaluru, IN",
+  location: "Bengaluru, Karnataka, India",
   email: "sharathshebbar@gmail.com",
   github: "https://github.com/SharathHebbar",
   linkedin: "https://www.linkedin.com/in/sharath-s-hebbar/",

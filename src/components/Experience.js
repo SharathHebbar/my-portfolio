@@ -13,7 +13,7 @@ const experience = [
   },
   {
     role: "Data Scientist",
-    org: "IQVIA",
+    org: "IQVIA Analytics Services Private Limited",
     period: "Jan 2024 — Aug 2025",
     bullets: [
       `Integrated GPT-4o into PowerBI using a Agentic AI framework to enable advanced summarization and interactive conversations
@@ -33,7 +33,7 @@ const experience = [
   },
   {
     role: "Senior Machine Learning Engineer",
-    org: "Quantiphi Analytics",
+    org: "Quantiphi Analytics Solutions Private Limited",
     period: "Feb 2022 — Jan 2024",
     bullets: [
       "Mentored and Spearheaded a team of 7 ML Interns to build a Proof of Concept based on a Multi-modal search engine.",
@@ -61,8 +61,11 @@ export default function Experience() {
             className="rounded-2xl border border-neutral-800 p-5 bg-neutral-950/40"
           >
             <div className="flex flex-wrap items-baseline justify-between gap-2">
-              <h3 className="text-lg font-bold">{e.role} · {e.org}</h3>
+              <h3 className="text-lg font-bold">{e.role}</h3>
               <span className="text-sm text-neutral-400">{e.period}</span>
+            </div>
+            <div className="flex flex-wrap items-baseline justify-between gap-2">
+              <i className="text-sm">{e.org}</i>
             </div>
             <ul className="mt-3 list-disc pl-5 text-neutral-300">
               {e.bullets.map((b, i) => (
