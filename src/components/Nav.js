@@ -19,12 +19,11 @@ export default function Nav() {
   return (
     <div className="sticky top-0 z-50 backdrop-blur bg-neutral-950/60 border-b border-neutral-800">
       <nav className="max-w-6xl mx-auto px-6 sm:px-8 py-3 flex items-center justify-between">
-        {/* Logo */}
+
         <a href="#" className="font-extrabold tracking-tight text-lg">
-          <span className="text-lime-400">SSH</span>·<span>Portfolio</span>
+          <span className="text-lime-400">SSH</span>
         </a>
 
-        {/* Desktop Menu */}
         <div className="hidden md:flex items-center gap-6 text-sm">
           {items.map((it) => (
             <a
@@ -37,7 +36,6 @@ export default function Nav() {
           ))}
         </div>
 
-        {/* Desktop Social Icons */}
         <div className="hidden md:flex items-center gap-3">
           <a
             href={ME.github}
@@ -71,7 +69,6 @@ export default function Nav() {
           </a>
         </div>
 
-        {/* Hamburger Button (Mobile Only) */}
         <button
           className="md:hidden p-2 rounded-lg hover:bg-neutral-900"
           onClick={() => setIsOpen(!isOpen)}
