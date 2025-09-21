@@ -9,7 +9,7 @@ const skills = {
   "ML Engineering": ["Supervised ML", "Unsupervised ML", "Neural Networks", "NLP", "Deep Learning", "Transfer Learning", "Fine Tuning"],
   "AI / ML Frameworks": ["LangChain", "LangGraph", "CrewAI", "PyTorch", "TensorFlow", "Scikit-learn", "XGBoost", "SpaCy", "NLTK", "HuggingFace"],
   "Languages and Databases": ["Python", "C", "C++", "SQL", "NoSQL"],
-  "Libraries and Frameworks": ["FastAPI", "Postgres", "MySQL", "MongoDB", "Firestore/Firebase", "Flask", "Streamlit", "DuckDB", "PySpark", "Spark"],
+  "Libraries and Frameworks": ["FastAPI", "Postgres", "MySQL", "MongoDB", "Firestore/Firebase", "Flask", "Streamlit", "DuckDB", "PySpark", "Spark", "BigQuery"],
   "Platform and DevOps": ["GCP", "Azure", "Git", "GitHub", "GitLab", "Docker", "MLflow", "Vertex AI", "Document AI", "Databricks", "GCR", "ACR"],
   // "Cloud": ["Azure", "GCP", "AWS"],
 };
