@@ -28,12 +28,12 @@ const certifications = [
     photo: "./ace.png",
   },
   {
-    title: "AI Fluency for Students",
+    title: "Introduction to Model Context Protocol",
     issued_by: "Anthropic",
-    issued_date: "18-Apr-2026",
+    issued_date: "01-May-2026",
     exp_date: "",
-    link: "https://verify.skilljar.com/c/h9w4m9gufip5",
-    photo: "./ai_fluency_for_students.jpg",
+    link: "https://verify.skilljar.com/c/cuewo7vbew8s",
+    photo: "./intro_to_mcp.jpg",
   },
     {
     title: "AI Fluency for Students",
@@ -44,12 +44,12 @@ const certifications = [
     photo: "./ai_fluency_for_students.jpg",
   },
     {
-    title: "AI Fluency for Students",
+    title: "Intro to Agent Skills",
     issued_by: "Anthropic",
-    issued_date: "18-Apr-2026",
+    issued_date: "01-May-2026",
     exp_date: "",
-    link: "https://verify.skilljar.com/c/h9w4m9gufip5",
-    photo: "./ai_fluency_for_students.jpg",
+    link: "https://verify.skilljar.com/c/4p6tuzxuz9xf",
+    photo: "./intro_to_agent_skills.jpg",
   },
 
 
