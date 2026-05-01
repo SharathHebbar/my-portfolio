@@ -8,7 +8,11 @@ const experience = [
     org: "Tiger Analytics",
     period: "Aug 2025 — Present",
     bullets: [
-      "Working on building scalable agents.",
+      `Designed and deployed an LLM-driven insight automation system for Provider Management in the Health Insurance domain, enabling end-to-end workflow from natural language queries to executive-ready PowerPoint reports.`,
+      `Built a multi-stage reasoning pipeline that decomposes high-level business questions into granular sub-queries, dynamically generates optimized SQL, and executes them securely on structured healthcare datasets.`,
+      `Implemented a sandboxed code execution framework for LLM-generated logic, ensuring data security, query validation, and controlled access to sensitive insurance and provider data.`,
+      `Developed a conversational AI agent capable of iterative analysis, contextual follow-up questioning, and narrative generation, improving decision-making workflows for non-technical stakeholders.`,
+      `Automated insight-to-presentation pipeline, including template-based slide population and narrative summarization, reducing manual reporting effort and accelerating executive insights delivery.`
     ],
   },
   {

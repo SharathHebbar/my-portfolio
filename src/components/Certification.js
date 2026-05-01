@@ -4,12 +4,12 @@ import { Github, ExternalLink, ShieldCheck} from "lucide-react";
 import { MotionSection, Badge } from "./Assets";
 const certifications = [
   {
-    title: "Associate Cloud Engineer",
-    issued_by: "Google",
-    issued_date: "31-Oct-2022",
-    exp_date: "31-Oct-2025",
-    link: "https://www.credential.net/89681ca7-c10f-48c6-8ee4-79fc33cee4b2#acc.LO9kjHWm",
-    photo: "./ace.png",
+    title: "Machine Learning Specialty",
+    issued_by: "AWS",
+    issued_date: "21-Oct-2023",
+    exp_date: "21-Oct-2026",
+    link: "https://www.credly.com/badges/aa876a30-55b5-4c6b-bcc5-ab08feb4a978/public_url",
+    photo: "./aws.png",
   },
   {
     title: "Professional MLE",
@@ -20,13 +20,39 @@ const certifications = [
     photo: "./pmle.png",
   },
   {
-    title: "Machine Learning Specialty",
-    issued_by: "AWS",
-    issued_date: "21-Oct-2023",
-    exp_date: "21-Oct-2026",
-    link: "https://www.credly.com/badges/aa876a30-55b5-4c6b-bcc5-ab08feb4a978/public_url",
-    photo: "./aws.png",
+    title: "Associate Cloud Engineer",
+    issued_by: "Google",
+    issued_date: "31-Oct-2022",
+    exp_date: "31-Oct-2025",
+    link: "https://www.credential.net/89681ca7-c10f-48c6-8ee4-79fc33cee4b2#acc.LO9kjHWm",
+    photo: "./ace.png",
   },
+  {
+    title: "AI Fluency for Students",
+    issued_by: "Anthropic",
+    issued_date: "18-Apr-2026",
+    exp_date: "",
+    link: "https://verify.skilljar.com/c/h9w4m9gufip5",
+    photo: "./ai_fluency_for_students.jpg",
+  },
+    {
+    title: "AI Fluency for Students",
+    issued_by: "Anthropic",
+    issued_date: "18-Apr-2026",
+    exp_date: "",
+    link: "https://verify.skilljar.com/c/h9w4m9gufip5",
+    photo: "./ai_fluency_for_students.jpg",
+  },
+    {
+    title: "AI Fluency for Students",
+    issued_by: "Anthropic",
+    issued_date: "18-Apr-2026",
+    exp_date: "",
+    link: "https://verify.skilljar.com/c/h9w4m9gufip5",
+    photo: "./ai_fluency_for_students.jpg",
+  },
+
+
 ];
 
 

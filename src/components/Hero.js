@@ -48,7 +48,7 @@ export default function Hero() {
         >
           
           {[
-            { label: "Years exp", value: "3+" },
+            { label: "Years exp", value: "3.8+" },
             { label: "Certifications", value: "3+" },
             { label: "Blogs", value: "54" },
             { label: "Repos", value: "100+" },

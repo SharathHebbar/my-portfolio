@@ -4,6 +4,18 @@ import { MotionSection, Badge } from "./Assets";
 
 const real_time_projects = [
   {
+    title: "Automated Insight Generation and Deck Creation from Structured Data",
+    skills: ["Agentic AI", "Langchain", "Langgraph", "Text-to-SQL", "Python", "Prompt Engineering", "LLM", "Databricks"],
+    year: "Aug 2025 - Present",
+    bullets: [
+      `Designed and deployed an LLM-driven insight automation system for Provider Management in the Health Insurance domain, enabling end-to-end workflow from natural language queries to executive-ready PowerPoint reports.`,
+      `Built a multi-stage reasoning pipeline that decomposes high-level business questions into granular sub-queries, dynamically generates optimized SQL, and executes them securely on structured healthcare datasets.`,
+      `Implemented a sandboxed code execution framework for LLM-generated logic, ensuring data security, query validation, and controlled access to sensitive insurance and provider data.`,
+      `Developed a conversational AI agent capable of iterative analysis, contextual follow-up questioning, and narrative generation, improving decision-making workflows for non-technical stakeholders.`,
+      `Automated insight-to-presentation pipeline, including template-based slide population and narrative summarization, reducing manual reporting effort and accelerating executive insights delivery.`
+    ],
+  },
+  {
     title: "Conversation Intelligence Pipeline",
     skills: ["Python", "Gen AI", "Prompt Engineering", "LLM", "Speech to Text", "Azure Cloud", "Summarization"],
     year: "May 2025 - Aug 2025",
