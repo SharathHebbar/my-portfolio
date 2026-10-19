@@ -48,10 +48,10 @@ export default function Hero() {
         >
           
           {[
-            { label: "Years exp", value: "3.8+" },
-            { label: "Certifications", value: "3+" },
-            { label: "Blogs", value: "54" },
-            { label: "Repos", value: "100+" },
+            { label: "Years exp", value: "4+" },
+            { label: "Designation", value: "Lead AI Engineer" },
+            { label: "Interested In", value: "Research Work" },
+            // { label: "Repos", value: "100+" },
           ].map((s) => (
             <div key={s.label} className="rounded-2xl border border-neutral-800 p-4 bg-neutral-950/40">
               <p className="text-2xl font-extrabold">{s.value}</p>

@@ -8,7 +8,7 @@ export const ME = {
   email: "sharathshebbar@gmail.com",
   github: "https://github.com/SharathHebbar",
   linkedin: "https://www.linkedin.com/in/sharath-s-hebbar/",
-  medium: "https://medium.com/@sharathhebbar24",
+  medium: "https://medium.com/@sharathhebbar",
   resume: "/resume.pdf", // put in /public
 };
 

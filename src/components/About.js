@@ -7,7 +7,7 @@ export default function About() {
     <MotionSection id="about" title="About" icon={Brain}>
       <div className="prose prose-invert max-w-none text-neutral-300">
         <p>
-          AI / ML Engineer with 3.8+ years of full-time experience working in Retail, Pharma, Medical and Product
+          AI / ML Engineer with 4+ years of full-time experience working in Retail, Pharma, Medical and Product
           development domains.
         </p>
         <p>
